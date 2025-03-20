@@ -1,4 +1,25 @@
+"""Instructions
+
+The game is played on a grid that’s 3 squares by 3 squares.
+Players take turns putting their marks (O or X) in empty squares.
+The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner.
+When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
+
+
+Hint
+
+To do this project, you basically need to create four functions:
+
+display_board() – To display the Tic Tac Toe board (GUI).
+player_input(player) – To get the position from the player.
+check_win() – To check whether there is a winner or not.
+play() – The main function, which calls all the functions created above.
+Note: The 4 functions above are just an example. You can implement many more helper functions or choose a completely different appoach if you want."""
+
+
+
 def display_board(board):
+
     print("Welcome to Tic Tac Toe !")
     print("TIC TAC TOE")
     print()
@@ -10,6 +31,8 @@ def display_board(board):
         if row < 2:
             print("* ---|---|--- *")
     print("*" * 17)
+
+
 
 def player_input(board, player):
 
@@ -31,10 +54,10 @@ def player_input(board, player):
             print("Invalid input. Please enter numbers only.\n")
     return board
 
+
+
 def check_win(board, player):
-    """
-    Vérifie si le joueur a gagné en vérifiant les lignes, colonnes et diagonales.
-    """
+    
     
     for row in board:
         if all([spot == player for spot in row]):
@@ -53,12 +76,16 @@ def check_win(board, player):
 
     return False
 
+
+
 def check_null(board):
    
     for row in board:
         if " " in row:
             return False
     return True
+
+
 
 def play():
     
@@ -85,6 +112,8 @@ def play():
         else:
             
             current_player = "O" if current_player == "X" else "X"
+
+
 
 
 if __name__ == '__main__':
