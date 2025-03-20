@@ -1,0 +1,92 @@
+Starting With Python
+
+Description :
+
+Welcome to your first course of Python !!! We’ll go over Python’s most basic elements: numeric types, strings, variables, booleans and conditional statements.
+
+
+
+Developed in 1990, Python is one of the most popular general-purpose programming languages in modern times. The term “general-purpose” simply means that Python can be used for a variety of applications and does not focus on any one aspect of programming.
+
+A High-Level Language
+
+Python falls under the category of high-level, interpreted languages. A high-level language is one which cannot be understood directly by our machine. There is a certain degree of abstraction in its syntax. Machines are generally designed to read machine code, but high-level syntax cannot be directly converted to machine code.
+
+As a result, it must first be converted to bytecode which is then converted to machine code before the program can be executed. Python is an interpreted language because, during execution, each line is interpreted to the machine language on-the-go. However, if we take the example of C++, the code needs to be compiled into an executable first, and then it can be executed. In Python, we can skip this compilation step (Python does it for us behind the scenes) and directly run the code.
+
+
+
+Readability
+
+One of the biggest reasons for Python’s rapid growth is the simplicity of its syntax. The language reads almost like plain English, making it easy to write complex programs. Since it doesn’t have much of a learning curve, Python is a very good entry point into the world of programming for beginners.
+
+
+
+Applications
+
+Apart from the ease of learning, Python is a very efficient language which is used in almost every sphere of modern computing. This makes a strong case for learning Python, even for non-programmers. Some of Python’s main applications are highlighted below:
+
+Web application
+Artificial intelligence
+Image processing
+Data Sciences
+Operating systems
+
+
+What You’ll Learn Today :
+
+Python Shell
+Basic Value Types
+Creating Variables
+Changing Variables
+FREE Tool Exclusively For Developers Institute (Public Cost 199USD)
+
+FREE PYCHARM LICENSE FOR DEVELOPERS INSTITUTE STUDENT
+
+Get your license here
+
+
+
+An integrated development environment (IDE) facilitates computer programmers by integrating fundamental tools (e.g., code editor, compiler, and debugger) into a single software package. Users do not need to install the language’s compiler/interpreter on their machines; an IDE provides the environment itself.
+
+PyCharm is a dedicated IDE for Python. It incorporates some state of the art features and is currently available in two editions: professional (paid), community (unpaid).
+
+
+
+Features
+
+The following are some noteworthy features of PyCharm:
+
+It inspects code to highlight errors, provides code completion facilities, and does a PEP8 quality audit.
+It refactors code in an intelligent way.
+It provides an integrated SSH terminal as well as Docker integration.
+It integrates with ShellCheck to check bash files.
+It offers support for frameworks like Django and Google App Engine.
+It supports a multitude of packages like Numpy and Scikit-learn.
+
+
+Some Pros And Cons Of Using ​Pycharm Are:
+
+Pros
+
+It has a free edition.
+It has a graphical user interface and is easy to use.
+Cons
+
+It takes time to load.
+It is memory intensive.
+
+
+Getting Started
+
+Pycharm can be installed on Windows, Macintosh, and Linux. For more details, ​visit the official website.(https://www.jetbrains.com/pycharm/)
+
+
+
+ARTICLE OF THE DAY : 7 Skills Of Highly “Effective” Programmers ✂️
+
+Software engineers spend a lot of time gaining skills for interviews by practicing leet code problems and perfecting resumes. Once they finally get that job at a startup, Google, Amazon, or another corporation, they might find the skills they used to get the job don’t match the ones they need in their everyday work. Our team was inspired by the seven skills of highly effective programmers created by the TechLead. We wanted to provide our own take on the topic.
+
+Here are our seven skills of effective programmers.
+
+Read the article here : https://medium.com/better-programming/7-habits-of-highly-effective-programmers-563ee3b63f33
