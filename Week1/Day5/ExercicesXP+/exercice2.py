@@ -4,7 +4,7 @@ Instructions
 
 In this exercise, you will analyze data from a hypothetical online retail company to gain insights into sales trends and customer behavior. The data is represented as a list of dictionaries, where each dictionary contains information about a single purchase.
 
-
+"""
 
 sales_data = [
     {"customer_id": 1, "product": "Smartphone", "price": 600, "quantity": 1, "date": "2023-04-03"},
@@ -15,7 +15,7 @@ sales_data = [
     {"customer_id": 3, "product": "Smartphone", "price": 550, "quantity": 1, "date": "2023-04-08"},
     {"customer_id": 1, "product": "Headphones", "price": 100, "quantity": 2, "date": "2023-04-09"}
 
-"""
+]
 
 
 # 1. Total Sales Calculation
