@@ -1,0 +1,12 @@
+Name: Hadriel
+Age: 27
+
+Attributes:
+Strength: 11
+Dexterity: 13
+Constitution: 14
+Intelligence: 16
+Wisdom: 17
+Charisma: 15
+
+====================
