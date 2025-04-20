@@ -1,3 +1,6 @@
+
+#Suite mini projet 
+
 from anagram_checker import AnagramChecker
 
 def clean_input(word):
