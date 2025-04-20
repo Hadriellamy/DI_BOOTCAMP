@@ -23,7 +23,7 @@ def main():
             break
         elif choice == '1':
             user_input = input("Enter a word: ")
-            word = clean_input(user_input)``
+            word = clean_input(user_input)
 
             if not is_valid_input(word):
                 print("❌ Invalid input. Please enter a single alphabetic word.")
