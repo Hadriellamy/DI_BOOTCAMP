@@ -219,3 +219,14 @@ madrid.info(today, after_tomorrow)
 # Simuler un vol
 print("\n--- Simulation de vol ---")
 plane1.fly(london)  # Fait décoller le premier vol du plane1
+
+
+"""
+✅ Ce que ce code fait :
+Gère les avions disponibles par compagnie et aéroport.
+Permet de programmer des vols entre aéroports.
+Suit la localisation des avions.
+Permet de faire décoller/atterrir un vol programmé.
+Affiche les vols planifiés sur une période donnée.
+
+"""
