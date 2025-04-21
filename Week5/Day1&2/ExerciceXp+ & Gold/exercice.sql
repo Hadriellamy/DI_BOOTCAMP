@@ -112,3 +112,25 @@ SELECT * FROM students WHERE id IN (1, 3);
 
 -- Fetch students whose birth_date is equal to or after 2000-01-01
 SELECT * FROM students WHERE birth_date >= '2000-01-01';
+
+
+
+-- Fetch the first four students, ordered alphabetically by last_name
+SELECT first_name, last_name, birth_date 
+FROM students 
+ORDER BY last_name 
+LIMIT 4;
+
+-- Fetch the details of the youngest student
+SELECT first_name, last_name, birth_date 
+FROM students 
+ORDER BY birth_date DESC 
+LIMIT 1;
+
+-- Fetch three students, skipping the first two students
+SELECT first_name, last_name, birth_date 
+FROM students 
+LIMIT 3 OFFSET 2;
+
+
+
