@@ -29,7 +29,7 @@ All customers whose last name is ‘Jones’.
 All customers whose firstname is not ‘Scott’.
 
 
-
+################################################################################################################################
 
 -- Création des tables
 CREATE TABLE items (
