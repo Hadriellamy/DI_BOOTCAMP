@@ -1,0 +1,17 @@
+URL: URL: https://github.com/Hadriellamy/DI_BOOTCAMP/blob/main/Week5/Day5/ExerciseXP/exercice1.sql
+suggestions for improvement:
+- Improve comments.  Instead of just saying 'Affiche toutes les langues...', explain what the query does and why it's used to address the specific problem. For example: "SELECT * FROM language; -- Retrieves all entries from the language table, fulfilling requirement 1 of listing all languages."
+- Add error handling. The INSERT statements into `customer_review` assume the existence of `language_id` 1 and 2. If these IDs are not present, the inserts will fail. Check for the existence of language before inserting the reviews or handle the potential error.
+- Add input validation.  The `score` column has a check constraint, but it doesn't prevent the insertion of invalid data types.  Input validation should be implemented at the application layer to sanitize user inputs and prevent SQL injection vulnerabilities.
+- Document assumptions.  Explicitly state any assumptions made, such as the existence of specific language IDs (1 and 2) when inserting reviews. This makes the solution more robust and easier for others to understand and replicate.
+- Use more descriptive variable names if applicable (this applies mostly if the code was expanded beyond these single queries).
+Correctness: 95%
+-----
+URL: URL: https://github.com/Hadriellamy/DI_BOOTCAMP/blob/main/Week5/Day5/ExerciseXP/exercice2.sql
+suggestions for improvement:
+- Improve readability by using more descriptive variable names and adding comments to explain complex queries.
+- Optimize performance by adding indexes to frequently queried columns (e.g., `customer.first_name`, `customer.last_name`, `film.title`, `film.description`).
+- Handle potential errors more gracefully. For example, check if `language_id = 2` actually corresponds to 'French' before updating the films.  Add error handling for cases where a customer or film might not exist.
+- Add input sanitization to prevent SQL injection vulnerabilities, although this is less of a concern with direct SQL queries in a controlled environment.
+Correctness: 95%
+-----
