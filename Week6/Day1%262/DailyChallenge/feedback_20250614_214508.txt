@@ -1,0 +1,11 @@
+URL: https://github.com/Hadriellamy/DI_BOOTCAMP/blob/main/Week6/Day1%262/DailyChallenge/daily.py
+suggestions for improvement:
+- Consider adding error handling for database operations (e.g., using `try...except` blocks).
+- The `DELETE FROM countries` statement in `insert_countries` might be unnecessary depending on the desired behavior. If the goal is to add new countries without deleting existing ones, remove it.
+- For better performance, especially with larger datasets, investigate using parameterized queries with executemany for database insertion. The current approach is relatively efficient for small numbers of countries, but could become a bottleneck for larger scales.
+Brief justification:
+- correctness: The code directly addresses the problem stated in the chapter content. It fetches 10 random countries from the specified REST API, extracts the required attributes (name, capital, flag, subregion, population), and inserts them into a SQLite database table.  The code successfully creates the table if it doesn't exist and populates it with the data, fulfilling all requirements of the task.
+- readability: The code is well-structured, using functions to separate concerns (database creation, data fetching, data insertion).  Variable names are descriptive.  The comments are helpful, although some might prefer more concise inline comments instead of separate blocks. The use of `response.raise_for_status()` is good practice.
+- performance: The code's performance is acceptable for small datasets. However, repeatedly deleting the entire table in `insert_countries`  isn't efficient for larger scale applications.  Fetching all countries from the API before selecting a random sample might be less efficient than fetching only the needed random subset if a larger number of countries were required. Using parameterized queries instead of `executemany` would improve performance further when dealing with a large number of countries.
+- security: The code does not have any obvious security vulnerabilities.  It uses the `requests` library safely and does not directly expose the database connection to external access.
+
